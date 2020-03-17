@@ -1,0 +1,52 @@
+if(filetype == ".sh") {
+	$comment = "#";
+} else {
+	$comment = "//";
+}
+
+#x = x;
+#y = y;
+
+
+if(selecting) {
+	##seltopx = seltopx;
+	##seltopy = seltopy;
+	##selendx = selendx;
+	##selendy = selendy;
+	##selnum = ##selendy - ##seltopy + 1;
+	
+	escape;
+
+	##i = 0;
+	while(##i < ##selnum) {
+		moveto 0, ##seltopy + ##i;
+
+		call ToggleComment;
+
+		##i = ##i + 1;
+	}
+
+	moveto ##seltopx, ##seltopy;
+	beginsel;
+	moveto ##selendx, ##selendy;
+	
+} else {
+	golinetop;
+
+	call ToggleComment;
+
+	moveto #x, #y;
+}
+
+endmacro;
+
+
+ToggleComment:
+	$prefix = gettext(x, y, strlen($comment), y, 1);
+
+	if($prefix != $comment) {
+		insert $comment;
+	} else {
+		replacedown "^" + $comment, "", regular, nohilight
+	}
+return;
