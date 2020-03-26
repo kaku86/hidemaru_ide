@@ -1,0 +1,19 @@
+save;
+
+if(filetype == ".go") {
+	runex "goimports -w %f"
+	, 1
+	, 0, ""
+	, 7, ""
+	, 7, ""
+	, 0, ""
+	, 2
+	, 0
+	, 6
+	, 0
+	;
+	
+	reopen;
+}
+
+endmacro;
