@@ -5,13 +5,13 @@
 
 
 ## Code completion
-Comming soon!
+Coming soon!
 
 
 
 ## Run make
 
-Comming soon!
+Coming soon!
 
 
 
@@ -19,4 +19,4 @@ Comming soon!
 * Code formatting with goimports.
 * Code linting with golint, go vet.
 
-For details, see [Go IDE](https://github.com/kaku86/hidemaru_ide/blob/master/README/README_GO.md)
+For details, see [Go](https://github.com/kaku86/hidemaru_ide/blob/master/README/README_GO.md)
