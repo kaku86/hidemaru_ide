@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.println("Hidemaru_IDE")
-	fmt.println("Demo_ToggleComment")
+	fmt.Println("Hidemaru_IDE")
+	fmt.Println("Demo_ToggleComment")
 
 }
