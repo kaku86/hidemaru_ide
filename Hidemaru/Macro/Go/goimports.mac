@@ -11,7 +11,7 @@ if(filetype == ".go") {
 	, 0
 	, 6
 	, 0
-	;
+	;// See https://help.maruo.co.jp/hidemac/html/100_ProgramStatement_runex.html
 	
 	reopen;
 }
