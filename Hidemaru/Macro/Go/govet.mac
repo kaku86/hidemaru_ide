@@ -1,3 +1,5 @@
+save;
+
 if(filetype == ".go") {
 	runex "go vet %f"
 	, 1

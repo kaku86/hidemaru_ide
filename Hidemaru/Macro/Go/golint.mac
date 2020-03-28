@@ -1,3 +1,5 @@
+save;
+
 if(filetype == ".go") {
 	runex "golint %f"
 	, 1
