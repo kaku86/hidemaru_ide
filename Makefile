@@ -4,4 +4,4 @@ DIST_DIR := $(APPDATA)\Hidemaruo
 
 .PHONY: dist
 dist:
-	cp -pr Hidemaru $(DIST_DIR)
+	cp -pr ./Hidemaru $(DIST_DIR)
