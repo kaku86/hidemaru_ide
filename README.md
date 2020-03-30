@@ -4,14 +4,14 @@
 ![Demo_ToggleComment](https://github.com/kaku86/hidemaru_ide/blob/master/Demo/ToggleComment/Demo_ToggleComment.gif)
 
 
+
 ## Code completion
 Coming soon!
 
 
 
 ## Run make
-
-Coming soon!
+![Demo_RunMake](https://github.com/kaku86/hidemaru_ide/blob/master/Demo/RunMake/Demo_RunMake.gif)
 
 
 
