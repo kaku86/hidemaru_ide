@@ -1,4 +1,4 @@
-# Go IDE
+# 秀丸 IDE for Go
 ## Code formatting
 ### GoImports
 ![Demo_GoImports](https://github.com/kaku86/hidemaru_ide/blob/master/Demo/Go/Demo_GoImports.gif)
