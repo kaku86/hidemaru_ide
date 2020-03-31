@@ -6,7 +6,7 @@
 
 
 ## Code completion
-Coming soon!
+![Demo_CodeCompletion](https://github.com/kaku86/hidemaru_ide/blob/master/Demo/CodeCompletion/Demo_CodeCompletion.gif)
 
 
 
