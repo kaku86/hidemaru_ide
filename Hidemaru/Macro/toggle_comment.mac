@@ -9,6 +9,8 @@ if(filetype == ".sh") {
 
 
 if(selecting) {
+	begingroupundo;
+
 	##seltopx = seltopx;
 	##seltopy = seltopy;
 	##selendx = selendx;
@@ -29,7 +31,8 @@ if(selecting) {
 	moveto ##seltopx, ##seltopy;
 	beginsel;
 	moveto ##selendx, ##selendy;
-	
+
+	endgroupundo;
 } else {
 	golinetop;
 
