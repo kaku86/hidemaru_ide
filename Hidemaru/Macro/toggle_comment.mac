@@ -45,11 +45,13 @@ endmacro;
 
 
 ToggleComment:
-	$prefix = gettext(x, y, strlen($comment), y, 1);
-
-	if($prefix != $comment) {
-		insert $comment;
+	selectline;
+	searchdown2 "^[\\t ]*" + $comment, regular, nohilight, inselect
+	escapeinselect
+	
+	if(result) {
+		replacedown "^([\\t ]*)" + $comment, "\\1", regular, nohilight
 	} else {
-		replacedown "^" + $comment, "", regular, nohilight
+		insert $comment;
 	}
 return;
